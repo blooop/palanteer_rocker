@@ -1,6 +1,6 @@
 # Changelog
 
-## pananteer_rocker
+## palanteer_rocker
 
 ## [0.0.0]
 

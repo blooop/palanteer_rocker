@@ -2,7 +2,7 @@
 import argparse
 import pytest
 from unittest.mock import patch
-from pananteer_rocker.palanteer_extension import PalanteerExtension
+from palanteer_rocker.palanteer_extension import PalanteerExtension
 
 
 class TestNewRockerExtension:

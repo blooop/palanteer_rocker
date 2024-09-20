@@ -10,8 +10,8 @@ from importlib import metadata
 
 copyright = "2023, Austin Gregg-Smith"  # pylint:disable=redefined-builtin
 author = "Austin Gregg-Smith"
-release = metadata.version("pananteer_rocker")
-project = f"pananteer_rocker {release}"
+release = metadata.version("palanteer_rocker")
+project = f"palanteer_rocker {release}"
 
 
 # -- General configuration ---------------------------------------------------
@@ -29,7 +29,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "sphinx_rtd_theme"
 # html_static_path = ["_static"]
 
-autoapi_dirs = ["../pananteer_rocker"]
+autoapi_dirs = ["../palanteer_rocker"]
 autoapi_ignore = ["*example_*", "*example*", "*experimental*"]
 
 

@@ -6,9 +6,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN git clone https://github.com/dfeneyrou/palanteer.git; \
     cd palanteer ; mkdir build; cd build ; \
     cmake .. -DCMAKE_BUILD_TYPE=Release; \
-    make -j$(nproc) install; 
-
-RUN cp ./bin/palanteer /usr/local/bin
-    cd ..\.. ; rm -rf palanteer ; 
-
-
+    make -j$(nproc) install; \
+    cp /palanteer/build/bin/palanteer /usr/local/bin/ ;\
+    cd ../.. ; rm -rf palanteer ; 

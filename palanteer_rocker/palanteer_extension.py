@@ -10,14 +10,11 @@ class PalanteerExtension(RockerExtension):
     def __init__(self):
         self.name = PalanteerExtension.get_name()
 
-    def get_snippet(self, cliargs):
-        return pkgutil.get_data("pananteer_rocker", "templates/curl_snippet.Dockerfile").decode(
-            "utf-8"
-        )
+   
 
-    def get_user_snippet(self, cliargs):
+    def get_snippet(self, cliargs):
         return pkgutil.get_data(
-            "pananteer_rocker", "templates/{}_snippet.Dockerfile".format(self.name)
+            "palanteer_rocker", "templates/{}_snippet.Dockerfile".format(self.name)
         ).decode("utf-8")
 
     @staticmethod

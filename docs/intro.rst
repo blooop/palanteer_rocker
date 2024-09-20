@@ -17,11 +17,11 @@ This has basic setup for
 
 ## Continuous Integration Status
 
-[![Ci](https://github.com/blooop/pananteer_rocker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blooop/pananteer_rocker/actions/workflows/ci.yml?query=branch%3Amain)
-[![Codecov](https://codecov.io/gh/blooop/pananteer_rocker/branch/main/graph/badge.svg?token=Y212GW1PG6)](https://codecov.io/gh/blooop/pananteer_rocker)
-[![GitHub issues](https://img.shields.io/github/issues/blooop/pananteer_rocker.svg)](https://GitHub.com/blooop/pananteer_rocker/issues/)
-[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/blooop/pananteer_rocker)](https://github.com/blooop/pananteer_rocker/pulls?q=is%3Amerged)
-[![GitHub release](https://img.shields.io/github/release/blooop/pananteer_rocker.svg)](https://GitHub.com/blooop/pananteer_rocker/releases/)
+[![Ci](https://github.com/blooop/palanteer_rocker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blooop/palanteer_rocker/actions/workflows/ci.yml?query=branch%3Amain)
+[![Codecov](https://codecov.io/gh/blooop/palanteer_rocker/branch/main/graph/badge.svg?token=Y212GW1PG6)](https://codecov.io/gh/blooop/palanteer_rocker)
+[![GitHub issues](https://img.shields.io/github/issues/blooop/palanteer_rocker.svg)](https://GitHub.com/blooop/palanteer_rocker/issues/)
+[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/blooop/palanteer_rocker)](https://github.com/blooop/palanteer_rocker/pulls?q=is%3Amerged)
+[![GitHub release](https://img.shields.io/github/release/blooop/palanteer_rocker.svg)](https://GitHub.com/blooop/palanteer_rocker/releases/)
 [![License](https://img.shields.io/pypi/l/bencher)](https://opensource.org/license/mit/)
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)](https://www.python.org/downloads/release/python-310/)
 

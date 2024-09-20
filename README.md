@@ -1,13 +1,13 @@
-# pananteer_rocker
+# palanteer_rocker
 
 ## Continuous Integration Status
 
-[![Ci](https://github.com/blooop/pananteer_rocker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blooop/pananteer_rocker/actions/workflows/ci.yml?query=branch%3Amain)
-[![Codecov](https://codecov.io/gh/blooop/pananteer_rocker/branch/main/graph/badge.svg?token=Y212GW1PG6)](https://codecov.io/gh/blooop/pananteer_rocker)
-[![GitHub issues](https://img.shields.io/github/issues/blooop/pananteer_rocker.svg)](https://GitHub.com/blooop/pananteer_rocker/issues/)
-[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/blooop/pananteer_rocker)](https://github.com/blooop/pananteer_rocker/pulls?q=is%3Amerged)
-[![GitHub release](https://img.shields.io/github/release/blooop/pananteer_rocker.svg)](https://GitHub.com/blooop/pananteer_rocker/releases/)
-[![License](https://img.shields.io/github/license/blooop/pananteer_rocker
+[![Ci](https://github.com/blooop/palanteer_rocker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blooop/palanteer_rocker/actions/workflows/ci.yml?query=branch%3Amain)
+[![Codecov](https://codecov.io/gh/blooop/palanteer_rocker/branch/main/graph/badge.svg?token=Y212GW1PG6)](https://codecov.io/gh/blooop/palanteer_rocker)
+[![GitHub issues](https://img.shields.io/github/issues/blooop/palanteer_rocker.svg)](https://GitHub.com/blooop/palanteer_rocker/issues/)
+[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/blooop/palanteer_rocker)](https://github.com/blooop/palanteer_rocker/pulls?q=is%3Amerged)
+[![GitHub release](https://img.shields.io/github/release/blooop/palanteer_rocker.svg)](https://GitHub.com/blooop/palanteer_rocker/releases/)
+[![License](https://img.shields.io/github/license/blooop/palanteer_rocker
 )](https://opensource.org/license/mit/)
 [![Python](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/downloads/)
 [![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
