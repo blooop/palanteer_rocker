@@ -10,8 +10,6 @@ class PalanteerExtension(RockerExtension):
     def __init__(self):
         self.name = PalanteerExtension.get_name()
 
-   
-
     def get_snippet(self, cliargs):
         return pkgutil.get_data(
             "palanteer_rocker", "templates/{}_snippet.Dockerfile".format(self.name)
