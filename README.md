@@ -15,7 +15,7 @@
 
 ## Intro
 
-This is a [rocker](https://github.com/tfoote/rocker) extension for adding [palanteer](https://github.com/dfeneyrou/palanteer) to a docker container.  Check out the [rocker](https://github.com/osrf/rocker) GitHub page for more details on how Rocker and its extensions work. In short, Rocker allows you to add custom capabilities to existing Docker containers.
+This is a [rocker](https://github.com/tfoote/rocker) extension for adding [palanteer](https://github.com/dfeneyrou/palanteer) to a docker container.  Check out the [rocker](https://github.com/osrf/rocker) GitHub page for more details on how rocker and its extensions work. In short, rocker allows you to add custom capabilities to existing docker images.
 
 ## Installation
 
