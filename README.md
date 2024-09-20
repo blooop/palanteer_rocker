@@ -42,7 +42,9 @@ To try a fully working example with graphics install [rockerc](https://github.co
 
 ```bash
 $ pip install rockerc
-$ cd palanteer_rocker
+# move into the palanteer_rocker folder which contains a rockerc.yaml file with arguments for setting up graphics (and palanteer)
+$ cd palanteer_rocker  
+# launch rocker with graphics and palanteer flags 
 $ rockerc
 ```
 
