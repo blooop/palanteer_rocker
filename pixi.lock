@@ -1116,7 +1116,7 @@ packages:
   name: palanteer-rocker
   version: 0.0.1
   path: .
-  sha256: f35f1777c5d8deb6db17ad78923c3d70359cef928edf0144d63fb54f265a3181
+  sha256: ec658acc5b60cc4a2db3f9a924322c46565fb28e30b8e9f5fe6cf79eee6d1835
   requires_dist:
   - rocker>=0.2.17
   - black>=23,<=24.8.0 ; extra == 'test'
