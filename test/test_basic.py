@@ -2,26 +2,26 @@
 import argparse
 import pytest
 from unittest.mock import patch
-from pananteer_rocker.new_rocker_extension import NewRockerExtension
+from pananteer_rocker.palanteer_extension import PalanteerExtension
 
 
 class TestNewRockerExtension:
 
-    # Instantiating new_rocker_extensionExtension and verifying the name attribute is set correctly
+    # Instantiating palanteerExtension and verifying the name attribute is set correctly
     def test_name_attribute_initialization(self):
-        extension = NewRockerExtension()
-        assert extension.name == "new_rocker_extension"
+        extension = PalanteerExtension()
+        assert extension.name == "palanteer"
 
     def test_register_arguments(self):
         parser = argparse.ArgumentParser()
-        NewRockerExtension.register_arguments(parser)
+        PalanteerExtension.register_arguments(parser)
         args = parser.parse_args([])
-        assert "new_rocker_extension" in vars(args)
+        assert "palanteer" in vars(args)
 
     # Handling missing template files in get_snippet method
     def test_get_snippet_missing_template(self):
 
-        extension = NewRockerExtension()
+        extension = PalanteerExtension()
         with patch("pkgutil.get_data", return_value=None):
             with pytest.raises(AttributeError):
                 extension.get_snippet({})
@@ -29,7 +29,7 @@ class TestNewRockerExtension:
     # Retrieving the default snippet using get_snippet method
     def test_retrieve_default_snippet(self):
 
-        extension = NewRockerExtension()
+        extension = PalanteerExtension()
         snippet = extension.get_snippet(None)
 
         assert snippet is not None
@@ -37,7 +37,7 @@ class TestNewRockerExtension:
     # Retrieving the user-specific snippet using get_user_snippet method
     def test_retrieve_user_specific_snippet(self):
 
-        extension = NewRockerExtension()
+        extension = PalanteerExtension()
         snippet = extension.get_user_snippet(None)
 
         assert snippet is not None

@@ -2,13 +2,13 @@ import pkgutil
 from rocker.extensions import RockerExtension
 
 
-class NewRockerExtension(RockerExtension):
+class PalanteerExtension(RockerExtension):
     @staticmethod
     def get_name():
-        return "new_rocker_extension"
+        return "palanteer"
 
     def __init__(self):
-        self.name = NewRockerExtension.get_name()
+        self.name = PalanteerExtension.get_name()
 
     def get_snippet(self, cliargs):
         return pkgutil.get_data("pananteer_rocker", "templates/curl_snippet.Dockerfile").decode(
@@ -25,8 +25,8 @@ class NewRockerExtension(RockerExtension):
         if defaults is None:
             defaults = {}
         parser.add_argument(
-            f"--{NewRockerExtension.get_name()}",
+            f"--{PalanteerExtension.get_name()}",
             action="store_true",
-            default=defaults.get("new_rocker_extension"),
-            help="add new_rocker_extension to your docker image",
+            default=defaults.get("palanteer"),
+            help="add palanteer to your docker image",
         )
