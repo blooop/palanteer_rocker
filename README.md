@@ -35,4 +35,21 @@ rocker --palanteer ubuntu:22.04
 rocker --palanteer nvidia/cuda
 ```
 
+Note that the above example will install palanteer but not work out of the box because the container will not have the correct graphics settings.
+
+To try a fully working example with graphics install [rockerc](https://github.com/blooop/rockerc)
+
+
+```bash
+$ pip install rockerc
+$ cd palanteer_rocker
+$ rockerc
+```
+
+inside the container
+```
+$ palanteer
+```
+
+
 
