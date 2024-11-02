@@ -5,7 +5,7 @@ from unittest.mock import patch
 from palanteer_rocker.palanteer_extension import PalanteerExtension
 
 
-class TestNewRockerExtension:
+class TestTemplateRocker:
 
     # Instantiating palanteerExtension and verifying the name attribute is set correctly
     def test_name_attribute_initialization(self):
